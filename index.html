@@ -5,51 +5,78 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio Pessoal</title>
+  <!--link da fonte-->
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+  <!--link css-->
   <link rel="stylesheet" href="css/style.css" />
-  <script type="text/javascript" src="script.js"></script>
+
+  <script src="https://kit.fontawesome.com/8dd542139c.js" crossorigin="anonymous"></script>
+  
 </head> 
 
 <body>
 
+  <!--Div de todo o container-->
+
   <div class="container">
+
+    <!--Tela de início-->
+
     <div class="profile box">
+
       <img class="profile-pic" src="img/99387388.png" alt="Profile" />
+
       <h1 class="title">Evanilson Rodrigues</h1>
+
       <span>Belo Horizonte, Brasil</span>
+
       <p>Desenvolvedor Front-end Júnior | Html, Css, JavaScript & Bootstrap</p>
-      <ul class="redes-sociais">
-        <li>
-          <a href="#"><img src="img/instagram.svg" alt="Instagram" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="img/linkedin.svg" alt="LinkedIn"/></a>
-        </li>
-        
-        
-      </ul>
+
+      <h3>Redes Sociais</h3>
+
+      <a href="#"><i class="textoBranco fab fa-linkedin"></i></a>
+      <a href="#"><i class="textoBranco icones fab fa-github"></i></a>
+      <a href="#"><i class="textoBranco icones fab fa-instagram"></i></a>
+
     </div>
+
+    <!--Minhas Habilidades-->
+
     <div class="portfolio box">
+      <h2>Minhas Habilidades</h2>
+
+      <i id="html" class="fab fa-html5"></i>
+      <i id="css" class="fab fa-css3"></i>
+      <i id="js" class="fab fa-js"></i>
+      <i id="bootstrap" class="fab fa-bootstrap"></i>
+      <i id="react" class="fab fa-react"></i>
+
+    </div>
+
+
+    <!--Meus Projetos-->
+
+
+    <div class="portfolio box">
+
       <h1 class="title">Projetos</h1>
+
       <strong>
         <p class="clique">Clique nas imagens para ver!</p>
       </strong>
+
       <ul>
+
         <li>
-          <a href="https://Evanilsonpg.github.io/projeto-android/"><img src="img/1.jpg" alt="1" /></a>
+          <a href="https://Evanilsonpg.github.io/projeto-android/"><img src="img/projeto android.webp" alt="1" /></a>
           <div>
             <h2>Projeto Android</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip.
+              Este é meu projeto onde fiz baseado na história da criadora do android <strong>Irina Block</strong>.
             </p>
           </div>
         </li>
+
         <li>
           <a href="#"><img src="img/2.jpg" alt="2" /></a>
           <div>
@@ -76,8 +103,13 @@
         </li>
       </ul>
     </div>
+
+
+    <!--Footer do site-->
     <p class="copyright">© 2022 Evanilson Alves Rodrigues</p>
+
   </div>
+
 </body>
 
 </html>
