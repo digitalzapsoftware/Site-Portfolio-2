@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 img {
   display: block;
   max-width: 100%;
@@ -33,6 +34,10 @@ body {
   font-weight: normal;
 }
 
+.clique {
+  padding-top: 10px;
+}
+
 .profile {
   max-width: 452px;
   box-sizing: border-box;
@@ -45,7 +50,7 @@ body {
   box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
   border-radius: 50px;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .profile-pic {
@@ -90,7 +95,7 @@ body {
 }
 
 .portfolio li + li {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .portfolio img {
@@ -106,8 +111,8 @@ body {
   font-size: 24px;
   color: white;
   text-shadow: 2px 2px 16px black;
-  margin-top: 50vh;
-  padding-bottom: 50vh;
+  margin-top: 10vh;
+  padding-bottom: 10vh;
   text-align: center;
 }
 
