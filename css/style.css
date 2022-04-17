@@ -144,8 +144,9 @@ body {
   grid-template-columns: 1fr 1fr;
   text-align: left;
   gap: 1rem;
-  color: #606060;
+  color: #3fdd00;
 }
+
 
 .portfolio li + li {
   margin-top: 4rem;
@@ -156,9 +157,60 @@ body {
   border-radius: 10px;
 }
 
+.portfolio .ver-projeto {
+   text-decoration: none;
+    font-weight: bold;
+    color: #616161;
+    background-color: #00ff73;
+    padding: 4px 4px;
+    border-radius: 4px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+}
+
+.portfolio .ver-projeto:hover {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 7px 7px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+
+}
+.portfolio .cordel-milton {
+   text-decoration: none;
+    font-weight: bold;
+    color: #616161;
+    background-color: #ffc400;
+    padding: 4px 4px;
+    border-radius: 4px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+}
+
+.portfolio .cordel-milton:hover {
+  text-decoration: none;
+    color: #ffffff;
+    padding: 7px 7px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+
+}
+
+
 .portfolio h2 {
   font-weight: normal;
   margin-bottom: 1rem;
+  color: rgb(54, 54, 54);
+}
+
+.portfolio .milton-duarte {
+  color: #ffc400;
+}
+
+.portfolio .spotify {
+  color: #00cf56;
 }
 
 .copyright {
@@ -194,6 +246,7 @@ body {
   .portfolio li div {
     max-width: 448px;
   }
+
   .copyright {
     font-size: 18px;
     color: #606060;
