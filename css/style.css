@@ -251,11 +251,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  body {
-    background-attachment: initial;
-    background-size: contain;
-    background-color: #f0e6da;
-  }
   .box {
     padding: 2rem;
     margin-top: 4rem;
