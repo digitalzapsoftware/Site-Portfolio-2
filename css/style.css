@@ -251,6 +251,11 @@ body {
   text-align: center;
 }
 
+.portfolio, .area-1, .area-2, .area-3 {
+  visibility: hidden;
+}
+
+
 @media (max-width: 600px) {
   .box {
     padding: 2rem;
@@ -279,3 +284,4 @@ body {
     padding: 4rem 0;
   }
 }
+
