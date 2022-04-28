@@ -1,2 +1,2 @@
 # Portfolio-2
- Meu segundo portfólio
+Portfólio criado com minhas habilidades ultilizando *HTML, CSS & JavaScript*
