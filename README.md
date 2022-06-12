@@ -1,4 +1,5 @@
 
+
 <h1 align='center'>Portfólio</h1>
 
 <img src='img/portfolio2.png'>
@@ -32,3 +33,7 @@ No **Portfólio** Contém a página de início onde está meu nome e tbm todas a
 
 **O javaScript foi ultilizado apenas para adicionar animações ao Portfólio!**
 
+=======
+# Portfolio-2
+Portfólio criado com minhas habilidades ultilizando *HTML, CSS & JavaScript*
+>>>>>>> 8dc1e187e59319362612b592cc1abcd1a6609256
